@@ -80,7 +80,7 @@ class TCPServer:
         #TODO: Run AI model
         folder_addr = os.path.join(hospital_name, patient_name)
         print(f"[RUN GPU START] Test code start! folder_addr = {folder_addr}")
-        subprocess.run(['python', '/home/younghun/IoT/gpu_server/gpu_server_0/test0.py', '--volume_path', folder_addr], check = True, capture_output=True)
+        subprocess.run(['python', '/home/younghun/IoT/gpu_server/gpu_server_1/test0.py', '--volume_path', folder_addr], check = True, capture_output=True)
         print(f"[RUN GPU END] Test code END!")
 
         #TODO: SEND ACK
